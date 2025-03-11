@@ -451,6 +451,17 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.banner-principal {
+    width: 100%; /* Ajusta según sea necesario */
+    height: 400px; /* Ajusta según sea necesario */
+    background: 
+        linear-gradient(to right, #F4E701 50%, rgba(244, 231, 1, 0) 50%),
+        url('../img/contenedor-platense.webp');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
